@@ -12,8 +12,13 @@
       method="POST"
       data-netlify="true"
       onSubmit="submit"
+      data-netlify-honeypot="bot-field"
       class="contact-form"
     >
+      <!--netlify honeypot for security -->
+
+      <input class="bot-field" name="bot-field" />
+
       <div class="form__wrapper">
         <div class="form-item">
           <label for="name">Name</label>

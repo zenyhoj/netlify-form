@@ -69,3 +69,7 @@ label {
   outline: 1px solid hsl(50, 50%, 50%);
   outline-offset: 4px;
 }
+
+.bot-field {
+  display: none;
+}
