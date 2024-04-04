@@ -64,8 +64,8 @@ label {
   border: none;
 }
 
-.form-item__text:focus,
-.form-item__btn:focus {
+.form-item__text:focus-visible,
+.form-item__btn:focus-visible {
   outline: 1px solid hsl(50, 50%, 50%);
-  outline-offset: 3px;
+  outline-offset: 4px;
 }
